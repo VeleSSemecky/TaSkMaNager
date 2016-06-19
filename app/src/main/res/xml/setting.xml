@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<CheckBoxPreference-->
+        <!--android:key="notif"-->
+        <!--android:summary="Enable notifications"-->
+        <!--android:title="Notifications">-->
+    <!--</CheckBoxPreference>-->
+    <Preference
+        android:key="firstTime"
+        android:summary="Color is not initiated tasks"
+        android:title="Not started">
+    </Preference>
+    <Preference
+        android:key="spentTime"
+        android:summary="Color started tasks"
+        android:title="Started">
+    </Preference>
+    <Preference
+        android:key="endTime"
+        android:summary="Color completed tasks"
+        android:title="Finished">
+    </Preference>
+    <Preference
+        android:key="restoreDefault"
+        android:summary="The default color restoration"
+        android:title="Default">
+    </Preference>
+</PreferenceScreen>

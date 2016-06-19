@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="colorStarted">#9f8415</color>
+<color name="colorCompleted">#691417</color>
+<color name="colorNoStarted">#094912</color>
+<color name="colorFon">#094900</color>
+    <color name="colorPrimary">#094912</color>
+    <color name="colorPrimaryDark">#094900</color>
+    <color name="colorAccent">#691417</color>
+</resources>

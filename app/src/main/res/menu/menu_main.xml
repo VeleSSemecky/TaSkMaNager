@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/action_remove"
+        android:icon="@drawable/ic_delete_all_24dp"
+        android:title="@string/remove"
+
+        yourapp:showAsAction="always" />
+    <item
+        android:id="@+id/action_sort"
+        android:icon="@drawable/ic_sort_black_24dp"
+        android:title="Sort"
+        yourapp:showAsAction="always">
+        <menu>
+            <!--<group android:checkableBehavior="single">-->
+            <group>
+                <item
+                    android:id="@+id/action_sort_a_z"
+                    android:title="@string/sort_by_a_z"
+                    android:textSize="2sp"
+                    yourapp:showAsAction="never" />
+                <item
+                    android:id="@+id/action_sort_z_a"
+                    android:title="@string/sort_by_z_a"
+                    yourapp:showAsAction="never" />
+                <item
+                    android:id="@+id/action_sort_start_date"
+                    android:title="@string/sort_by_start_date"
+                    yourapp:showAsAction="never" />
+                <item
+                    android:id="@+id/action_sort_end_date"
+                    android:title="@string/sort_by_end_date"
+                    yourapp:showAsAction="never" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_autocomplete"
+        android:icon="@drawable/ic_task_autocomplete_24dp"
+        android:title="@string/autocomplete"
+        yourapp:showAsAction="always" />
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/ic_add_one_task_24dp"
+        android:title="@string/autocomplete"
+        yourapp:showAsAction="always" />
+
+
+</menu>
