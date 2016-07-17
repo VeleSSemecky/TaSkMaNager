@@ -1,4 +1,4 @@
-package com.example.chornovic.task;
+package com.example.chornovic.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -10,8 +10,6 @@ public class Task implements Parcelable {
     String name;
     String comment;
     String time;
-
-
 
     public Task(String name, String comment,String time) {
         this.name = name;
